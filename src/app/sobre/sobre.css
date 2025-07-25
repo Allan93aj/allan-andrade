@@ -1,0 +1,20 @@
+.sobre-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 40px 16px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.sobre-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.sobre-paragrafo {
+  margin-bottom: 16px;
+  line-height: 1.6;
+  font-size: 1rem;
+}

@@ -1,0 +1,143 @@
+.main-container {
+      position: relative;
+    height: 100%;
+}
+
+.main-wallpaper {
+      width: 40%;
+    height: 100%;
+    background: #E6DACE;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.main-card-container {
+  display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+    padding: 20px;
+    height: 95%;
+}
+
+.main-card-left {
+  width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: #F4ECE6;
+    border-radius: 16px;
+    box-shadow: -4px 0px 15px -9px #999;
+    justify-content: space-between;
+}
+
+.main-image-wrapper {
+  width: 100%;
+    padding: 20px;
+}
+
+.main-image {
+  width: 95%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.main-name {
+  margin: 0;
+    background: #F4ECE6;
+    line-height: 30px;
+    font-size: 3rem;
+}
+
+.main-divider {
+  background: #0050FF;
+    height: 5px;
+    width: 50px;
+    display: block;
+    border-radius: 10px;
+}
+
+.main-role {
+      font-weight: 100;
+    letter-spacing: 2px;
+    background: #F4ECE6;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main-socials {
+      gap: 20px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 0 0 16px 16px;
+}
+
+.social-icon {
+      width: 30px;
+    height: 30px;
+}
+
+.main-card-right {
+  width: 24%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-greeting {
+  font-size: 5rem;
+    margin-top: 0;
+}
+
+.main-btn-group {
+  display: flex;
+    gap: 10px;
+}
+
+.btn {
+  
+}
+
+.btn-primary {
+  padding: 10px 20px;
+    background: #0050FF;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-secondary {
+      padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-description {
+  font-size: 1.5rem;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
